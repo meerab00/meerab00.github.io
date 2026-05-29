@@ -1,34 +1,39 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Kainat Jameel — Portfolio</title>
+
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet"/>
 </head>
+
 <body>
 
   <!-- Cursor -->
   <div class="cursor" id="cursor"></div>
   <div class="cursor-follower" id="cursor-follower"></div>
 
-  <!-- Noise overlay -->
+  <!-- Noise -->
   <div class="noise"></div>
 
   <!-- NAV -->
   <nav class="nav">
     <div class="nav-logo">KJ<span class="dot">.</span></div>
+
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+
     <button class="nav-toggle" id="navToggle">☰</button>
   </nav>
 
-  <!-- Mobile Menu -->
+  <!-- MOBILE MENU -->
   <div class="mobile-menu" id="mobileMenu">
     <ul>
       <li><a href="#about" onclick="closeMobile()">About</a></li>
@@ -41,23 +46,30 @@
   <!-- HERO -->
   <section class="hero" id="home">
     <div class="hero-bg-text">PORTFOLIO</div>
+
     <div class="hero-content">
       <p class="hero-tag reveal">Open to Opportunities</p>
+
       <h1 class="hero-name reveal">
         <span>Kainat</span>
         <span class="outline">Jameel</span>
       </h1>
+
       <p class="hero-role reveal">
-        <span class="typed" id="typed"></span><span class="cursor-blink">|</span>
+        <span class="typed" id="typed"></span>
+        <span class="cursor-blink">|</span>
       </p>
+
       <p class="hero-desc reveal">
-        BS Mathematics student with a passion for building smart, useful web apps and AI-powered tools. Turning math into magic — one project at a time.
+        BS Mathematics student passionate about web development, AI tools and problem solving.
       </p>
+
       <div class="hero-cta reveal">
         <a href="#projects" class="btn btn-primary">View Projects</a>
         <a href="#contact" class="btn btn-ghost">Contact Me</a>
       </div>
     </div>
+
     <div class="hero-scroll">
       <span>Scroll</span>
       <div class="scroll-line"></div>
@@ -67,40 +79,45 @@
   <!-- ABOUT -->
   <section class="about section" id="about">
     <div class="container">
+
       <div class="section-label">01 / About</div>
+
       <div class="about-grid">
+
         <div class="about-img-wrap">
-        <img src="photo.jpg" alt="Kainat Jameel" 
-style="width:100%; height:100%; object-fit:cover; border-radius:4px;">
-<div class="about-img-accent"></div>
+          <img src="photo.jpg" alt="Kainat Jameel"
+               style="width:100%; height:100%; object-fit:cover; border-radius:4px;">
+          <div class="about-img-accent"></div>
         </div>
+
         <div class="about-text">
           <h2 class="section-title">Math student.<br/><em>Tech builder.</em></h2>
+
           <p>
-            Hi! I'm Kainat Jameel, a BS Mathematics student who loves building tech projects. 
-            From calculators to AI-powered chatbots, I enjoy creating tools that are both 
-            functional and beautiful.
+            I am Kainat Jameel, a BS Mathematics student at BZU Multan. I love building
+            web projects and exploring AI tools.
           </p>
+
           <p>
-            I work with Python, web technologies, and AI platforms like Hugging Face to build 
-            projects that solve real problems. Always learning, always building! 💡
+            My goal is to combine mathematics and technology to solve real-world problems.
           </p>
+
           <div class="about-stats">
             <div class="stat">
               <span class="stat-num">5+</span>
-              <span class="stat-label">Projects Built</span>
-            </div>
-            <div class="stat">
-              <span class="stat-num">3+</span>
-              <span class="stat-label">AI Tools Made</span>
+              <span class="stat-label">Projects</span>
             </div>
             <div class="stat">
               <span class="stat-num">BS</span>
               <span class="stat-label">Mathematics</span>
             </div>
+            <div class="stat">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">AI Tools</span>
+            </div>
           </div>
-          <a href="resume.pdf" class="btn btn-primary" download>Download Resume</a>
         </div>
+
       </div>
     </div>
   </section>
@@ -108,8 +125,11 @@ style="width:100%; height:100%; object-fit:cover; border-radius:4px;">
   <!-- SKILLS -->
   <section class="skills section" id="skills">
     <div class="container">
+
       <div class="section-label">02 / Skills</div>
+
       <h2 class="section-title">What I work<br/><em>with</em></h2>
+
       <div class="skills-grid">
         <div class="skill-card">
           <div class="skill-icon">💻</div>
@@ -118,58 +138,56 @@ style="width:100%; height:100%; object-fit:cover; border-radius:4px;">
             <li>HTML / CSS</li>
             <li>JavaScript</li>
             <li>Responsive Design</li>
-            <li>Vercel Deployment</li>
           </ul>
         </div>
-        <div class="skill-card">
-          <div class="skill-icon">🤖</div>
-          <h3>AI & Python</h3>
-          <ul>
-            <li>Python</li>
-            <li>Hugging Face</li>
-            <li>Chatbot Development</li>
-            <li>NLP Tools</li>
-          </ul>
-        </div>
+
         <div class="skill-card">
           <div class="skill-icon">🧮</div>
           <h3>Mathematics</h3>
           <ul>
-            <li>BS Mathematics</li>
-            <li>Scientific Computing</li>
             <li>Problem Solving</li>
-            <li>Logic & Algorithms</li>
+            <li>Logic Building</li>
+            <li>Analysis</li>
           </ul>
         </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🤖</div>
+          <h3>AI Tools</h3>
+          <ul>
+            <li>Python Basics</li>
+            <li>AI Concepts</li>
+          </ul>
+        </div>
+
         <div class="skill-card">
           <div class="skill-icon">🛠</div>
           <h3>Tools</h3>
           <ul>
             <li>GitHub</li>
-            <li>Vercel</li>
-            <li>Hugging Face Spaces</li>
             <li>VS Code</li>
           </ul>
         </div>
       </div>
+
     </div>
   </section>
 
   <!-- PROJECTS -->
   <section class="projects section" id="projects">
     <div class="container">
+
       <div class="section-label">03 / Projects</div>
+
       <h2 class="section-title">Selected<br/><em>work</em></h2>
+
       <div class="projects-list">
 
         <div class="project-item">
           <div class="project-num">01</div>
           <div class="project-info">
-            <h3>Simple & Advance Calculator</h3>
-            <p>A fully functional calculator with both simple and advanced modes. Built with clean UI and smooth interactions.</p>
-            <div class="project-tags">
-              <span>HTML</span><span>CSS</span><span>JavaScript</span>
-            </div>
+            <h3>Calculator</h3>
+            <p>Simple calculator using HTML, CSS and JavaScript.</p>
           </div>
           <div class="project-links">
             <a href="https://github.com/meerab00" target="_blank">GitHub ↗</a>
@@ -179,69 +197,48 @@ style="width:100%; height:100%; object-fit:cover; border-radius:4px;">
         <div class="project-item">
           <div class="project-num">02</div>
           <div class="project-info">
-            <h3>Scientific Calculator</h3>
-            <p>An advanced scientific calculator deployed on Vercel with trigonometric, logarithmic, and algebraic functions.</p>
-            <div class="project-tags">
-              <span>JavaScript</span><span>Vercel</span><span>Math.js</span>
-            </div>
-          </div>
-          <div class="project-links">
-            <a href="https://vercel.com" target="_blank">Live ↗</a>
-            <a href="https://github.com/meerab00" target="_blank">GitHub ↗</a>
-          </div>
-        </div>
-
-        <div class="project-item">
-          <div class="project-num">03</div>
-          <div class="project-info">
             <h3>AI Chatbot</h3>
-            <p>An intelligent chatbot powered by Hugging Face models. Capable of having natural conversations with users.</p>
-            <div class="project-tags">
-              <span>Python</span><span>Hugging Face</span><span>NLP</span>
-            </div>
-          </div>
-          <div class="project-links">
-            <a href="https://huggingface.co" target="_blank">Live ↗</a>
-          </div>
-        </div>
-
-        <div class="project-item">
-          <div class="project-num">04</div>
-          <div class="project-info">
-            <h3>Translator & Text Summarizer</h3>
-            <p>An AI-powered tool that translates text between languages and summarizes long content into key points instantly.</p>
-            <div class="project-tags">
-              <span>Python</span><span>Hugging Face</span><span>Transformers</span>
-            </div>
-          </div>
-          <div class="project-links">
-            <a href="https://huggingface.co" target="_blank">Live ↗</a>
+            <p>Basic AI chatbot project using Python concepts.</p>
           </div>
         </div>
 
       </div>
+
     </div>
   </section>
 
   <!-- CONTACT -->
   <section class="contact section" id="contact">
     <div class="container">
+
       <div class="section-label">04 / Contact</div>
+
       <div class="contact-inner">
+
         <h2 class="contact-title">Let's work<br/>together <em>!</em></h2>
-        <p class="contact-sub">Have a project in mind or want to collaborate? I'd love to hear from you!</p>
-        <a href="mailto:kainatjameel0786@gmail.com" class="contact-email">kainatjameel0786@gmail.com</a>
+
+        <p class="contact-sub">
+          Contact me for collaboration or projects.
+        </p>
+
+        <a href="mailto:kainatjameeel0786@gmail.com" class="contact-email">
+          Email Me
+        </a>
+
         <div class="contact-socials">
+          <a href="mailto:kainatjameeel0786@gmail.com">Email</a>
           <a href="https://github.com/meerab00" target="_blank">GitHub</a>
-          <a href="https://linkedin.com/in/kainat-jameel" target="_blank">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/kainat-jameel-28a4b1387" target="_blank">LinkedIn</a>
         </div>
+
       </div>
+
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer class="footer">
-    <span>© 2025 Kainat Jameel. Built with ❤️</span>
+    <span>© 2025 Kainat Jameel</span>
     <a href="#home">Back to top ↑</a>
   </footer>
 
